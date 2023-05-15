@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "succeed": "WHO_TO_GREET=matt deno run -A main.ts",
+    "fail": "deno run -A main.ts"
+  }
+}
